@@ -39,8 +39,8 @@ CREATE TABLE sale (
 	DATE_PURCHASE 	TIMESTAMP NOT NULL,
 	PROFIT double precision NOT NULL
 );
-Класс для запуска программы Program, package - Program (Program.Program);
-При запуске программы необходимо ввести порт, по которому PostgreSQL принимает запросы. База данных должна работать локально. 
+
+Класс для запуска программы Program, package - Program (Program.Program).При запуске программы необходимо ввести порт, по которому PostgreSQL принимает запросы. База данных должна работать локально. 
 
 Список доступных команд для работы программы (регистр важен):
 
