@@ -152,7 +152,7 @@ public class Rules {
 
     public static Date validationSalesReport(String[] argumentsArray){
 
-        Date date = null;
+        Date date;
         if( argumentsArray.length == 3 ){
 
             date = getDate(argumentsArray[2]);
@@ -168,6 +168,7 @@ public class Rules {
             }
 
         }else{
+            System.out.println("Error in numbers arguments in command.");
             return null;
         }
 
